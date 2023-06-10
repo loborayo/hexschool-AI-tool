@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    background: #020202;
+    font-size: 16px;
+}
+
+// margin
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mb160 {
+    margin-bottom: 160px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+img {
+    display: block;
+}
+
+//font
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 900;
+    line-height: 120%;
+}
+
+h1 {
+    font-size: 7.5rem; //120px
+    color: $black0
+}
+
+h2 {
+    font-size: 5rem; //80px
+}
+
+h3 {
+    font-size: 3rem; //48px
+    color: $black0;
+}
+
+h4 {
+    font-size: 2rem; //32px
+    color: $black0;
+}
+
+h5 {
+    font-size: 1.25rem; //20px
+    font-weight: 900;
+}
+
+h6 {
+    font-size: 1rem; //16px
+}
+
+a,
+p {
+    font-size: 1rem; //16px
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+@mixin mobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+}

@@ -1,0 +1,51 @@
+.wrap-qa {
+    margin: 158px auto 160px;
+    max-width: 67.5%;
+    gap: 24.074%;
+
+    h4 {
+        flex-shrink: 0;
+    }
+
+    .qa-list {
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+
+        &-item {
+            display: block;
+            padding: 20px 40px;
+            border: 1px solid $black80;
+            border-radius: 16px;
+            color: $black0;
+
+            &:hover {
+                border: 1px solid $black0;
+            }
+
+            &.active {
+                border: 2px solid $black0;
+            }
+
+            .flex {
+                gap: 20px;
+            }
+
+            .state {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .content {
+                h5 {
+                    line-height: 24px;
+                }
+
+                p.show {
+                    display: block;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
