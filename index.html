@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
-    <script src="js/all.js"></script>
     <link rel="stylesheet" href="css/all.css">
 </head>
 
@@ -20,7 +18,7 @@
     <div class="wrap">
         <header class="header mb160">
             <div class="navbar flex mb40">
-                <a href="#"><img
+                <a href="./index.html"><img
                         src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
                         alt="LOGO"></a>
                 <ul class="navbar-menu flex">
@@ -34,7 +32,7 @@
             <div class="title">
                 <h1 class="mb40 d-block">透過<br>AI工具王的<br>強大模型<br>讓您的業務更聰明</h1>
                 <h1 class="d-none">透過<br>AI工具王的<br>強大模型<br>讓您的業務<br>更聰明</h1>
-                <button class="start-btn">開始使用</button>
+                <button type="button" class="start-btn">開始使用</button>
             </div>
             <div class="arrow-deco flex">
                 <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
@@ -45,28 +43,28 @@
                     alt="arrow">
             </div>
         </header>
-        <div class="service mb160">
+        <div class="service flex mb160">
             <div class="text flex mb80">
                 <h4>我們的服務</h4>
                 <h3>我們相信透過 AI 技術，<br>包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。</h3>
             </div>
-            <div class="advantage flex">
-                <div class="card">
+            <ul class="advantage flex">
+                <li class="card">
                     <span class="material-icons">flash_on</span>
                     <h4>快速</h4>
                     <p>我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <span class="material-icons">auto_awesome</span>
                     <h4>靈活</h4>
                     <p>我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <span class="material-icons">library_add</span>
                     <h4>擴充</h4>
                     <p>我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
         <div class="enterprise mb160">
             <h4 class="mb80">來自合作夥伴</h4>
@@ -134,8 +132,8 @@
                         alt="enterprise">
                 </li>
             </ul>
-            <div class="comment flex">
-                <div class="card">
+            <ul class="comment flex">
+                <li class="card">
                     <span class="material-icons">star star star star star</span>
                     <p>非常喜歡 AI工具王 提供的 AI
                         模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王 提供的 AI
@@ -149,8 +147,8 @@
                             <span>ABC科技有限公司</span>
                         </div>
                     </div>
-                </div>
-                <div class="card d-none">
+                </li>
+                <li class="card d-none">
                     <span class="material-icons">star star star star star</span>
                     <p>作為一家醫療器材公司，我們非常關注人工智能技術的應用，而 AI工具王 提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
                         的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝 AI工具王 團隊的辛勤工作！</p>
@@ -163,8 +161,8 @@
                             <span>XYZ 醫療器材有限公司</span>
                         </div>
                     </div>
-                </div>
-                <div class="card d-none">
+                </li>
+                <li class="card d-none">
                     <span class="material-icons">star star star star star</span>
                     <p>我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而 AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用 AI工具王
                         的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝 AI工具王 團隊的支持！</p>
@@ -177,8 +175,8 @@
                             <span>EFG 銀行</span>
                         </div>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
             <div class="pagination flex">
                 <div class="point active"></div>
                 <div class="point"></div>
@@ -359,7 +357,7 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
-                <li><a href="#"><span class="material-icons" style="font-size: 16px;">keyboard_arrow_right</span></a>
+                <li><a href="#"><span class="material-icons">keyboard_arrow_right</span></a>
                 </li>
             </ul>
         </div>
@@ -370,14 +368,14 @@
         <div class="CallToAction flex mb80">
             <h2 class="d-block">現在就來建立屬於你的服務吧</h2>
             <h2 class="d-none">現在就來建立<br>屬於你的服務吧</h2>
-            <button class="start-btn flex">開始使用<span class="material-icons">call_made</span></button>
+            <button type="button" class="start-btn flex">開始使用<span class="material-icons">call_made</span></button>
         </div>
         <div class="footer-nav flex">
             <ul class="flex">
                 <li><a href="#">首頁</a></li>
                 <li><a href="#">定價</a></li>
             </ul>
-            <a href="#"><img
+            <a href="./index.html"><img
                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
                     alt="LOGO"></a>
         </div>
@@ -388,10 +386,11 @@
                 <a href="#">Twitter</a>
                 <a href="#">Instagram</a>
             </div>
-            <a href="#" class="BackToTop flex">Back to top<span class="material-icons" style="font-size: 16px;">arrow_upward</span></a>
+            <a href="#" class="BackToTop flex">Back to top<span class="material-icons">arrow_upward</span></a>
         </div>
     </footer>
     <!-- Footer End -->
 </body>
-
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+<script src="js/all.js"></script>
 </html>
